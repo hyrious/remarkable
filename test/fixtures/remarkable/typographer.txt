@@ -47,9 +47,9 @@ plus-minus
 
 ellipsis
 .
-test.. test... test..... test?..... test!....
+test... test..... test?..... test!....
 .
-<p>test… test… test… test?.. test!..</p>
+<p>test… test… test?.. test!..</p>
 .
 
 
