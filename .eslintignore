@@ -4,3 +4,4 @@ demo/sample.js
 dist/
 node_modules/
 demo/
+e2e-test/

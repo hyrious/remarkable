@@ -67,7 +67,7 @@ readFile(options.spec, 'utf8', function (error, input) {
 
   input = input.replace(/→/g, '\t');
 
-  input.replace(/^\.\n([\s\S]*?)^\.\n([\s\S]*?)^\.$/gm, function(__, md, html, offset, orig) {
+  input.replace(/^`{10,} example\n([\s\S]*?)^\.\n([\s\S]*?)^`{10,}$/gm, function(__, md, html, offset, orig) {
 
     var result = {
       md: md,
